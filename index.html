@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Number Racer Game</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="panel">
+        <div id="panel-head">
+          <div class="content">
+            <div class="hit-content"><h2>Hit</h2></div>
+            <span><h2>:</h2></span>
+
+            <div id="show-hit" class="show"></div>
+          </div>
+
+          <div class="content">
+            <div class="Timer-content"><h2>Timer</h2></div>
+            <span><h2>:</h2></span>
+            <div id="show-timer" class="show"></div>
+          </div>
+
+          <div class="content">
+            <div class="score-content"><h2>Score</h2></div>
+            <span><h2>:</h2></span>
+            <div id="show-score" class="show"></div>
+          </div>
+          <button onclick="restart()" id="start">START</button>
+        </div>
+
+        <div id="panel-body">
+          Start Game: Click "START" to begin.<br />
+          Goal: Click circles with matching numbers. <br />Score: Get 10 points
+          for each correct click. <br />Timer: You have 60 seconds to play.<br />
+          Restart: Click "START" again for a new round.
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

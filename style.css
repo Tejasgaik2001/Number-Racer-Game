@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41 76 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#panel{
+    
+width: 80%;
+    
+height: 80%;
+    
+background-color: #7e93a6;
+    
+border-radius: 3%;
+    
+overflow: hidden;
+}
+#panel-head{
+  width: 100%;
+  height: 15%;
+  background-color: rgb(77 166 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+#panel-body{
+    width: 100%;
+    height: 85%;
+    background-color:rgb(240, 230, 230);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 14px;
+    text-align: center;
+
+}
+
+.content{
+    width: 20%;
+    height: 30%;
+
+    display: flex;
+}
+.show{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(209, 215, 222);
+    margin-left: 15px;
+    margin-top: -12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:27px;
+}
+
+
+.circle{
+    width: 75px;
+    height: 67px;
+    background-color:rgb(116, 184, 116);
+    border-radius: 50%;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+
+}
+.circle:hover{
+    cursor: pointer;
+    background-color: green;
+}
+#start{
+    width: 100px;
+    height: 38px;
+    position: absolute;
+    right: 20px;
+    border-radius: 5px;
+    background-color: rgb(116, 160, 116);
+    font-size: 15px;
+   
+
+}
+#start:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.no-show{
+width: 100%;
+height: 100%;
+text-align: center;
+ 
+}
+.hidden{
+    display: none;
+} 
